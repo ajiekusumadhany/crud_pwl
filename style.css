@@ -1,0 +1,180 @@
+html, body {
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+.header{
+    padding: 1px;
+    background-color: #3e7ce7ed;
+    text-align: center;
+    color: #ffffff;
+}
+.nav {
+    padding: 1em;
+    background-color: #6AC8FF;
+}
+.nav a {
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: #905afc80;
+}
+h2,p{
+  margin-left: 40px;
+}
+.form{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+  .form_belanja{
+    max-width: 500px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 50px;
+    background-color: rgb(232, 232, 232);
+  }
+  input[type="text"],
+  input[type="number"],
+  select[name="nama_buku"]
+  {
+    margin-top: 50px;
+    margin: 15px auto;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    background-color: #ffffff;
+  }
+  .beli,.daftarbuku{
+    float: right;
+    width: 50%;
+    padding: 13px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4caf50;
+  }
+  .kosongkan,.ubah{
+    width: 50%;
+    padding: 13px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #fff;
+    background-color: #d9534f;
+  }
+  .beli:hover {
+    background-color: #37913a;
+  }
+  .kosongkan:hover {
+    background-color: #b44440;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 1px;
+    border-color: #fff;
+    width: 800px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+  td {
+      padding: 5px;
+      text-align: center;
+  }
+  th {
+      padding: 15px;
+      text-align: center;
+      background-color: #bababa;
+      color: #fff;
+  }
+  .bayarubah{
+    width: 800px;
+    margin: auto;
+    padding: 50px;
+  }
+
+  .buku{
+    margin: 50px;
+  }
+  .gambar {
+      margin: 26px;
+      float: left;
+      width: 180px;
+  }
+  .gambar:hover{
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    background-color: rgb(232, 233, 234);
+  }
+  .gambar img {
+      width: 100%;
+  }
+  .namabuku{
+      padding: 15px;
+      text-align: center;
+  }
+  .hargabuku{
+    padding: 1px;
+    text-align: center;
+    color: #ee4d2d;
+}
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .edit{
+    float: right;
+    width: 30px;
+    height: 7px;
+    padding: 13px;
+    border: 1px solid #fff;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #FFDE59;
+  }
+  .hapus{
+    float: right;
+    width: 30px;
+    height:7px;
+    text-align: center;
+    padding: 13px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #fff;
+    background-color: #d9534f;
+  }
+  .edit:hover {
+    background-color: #FFBD59;
+  }
+  .hapus:hover {
+    background-color: #b44440;
+  }
+.belilagi{
+  width: 50%;
+  padding: 13px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  color: #fff;
+  background-color: #8C52FF;
+}
+.kategori {
+  margin-top: 40px;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  background-color: #6fc372;
+}
+.kategori a {
+  color: white;
+  padding: 14px;
+  text-decoration: none;
+}
+.kategori a:hover {
+  background-color: #37913a;
+}
